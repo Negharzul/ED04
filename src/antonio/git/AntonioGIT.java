@@ -23,8 +23,8 @@ public class AntonioGIT {
         //Imprimo la suma de todos los valores del array.
         System.out.println(sumaArray(m));
         
-        //imprimo un valor aleatorio dentro del array.
-        System.out.println(aleatorioArray(m));
+        //imprimo la suma de 2 valores obtenidos aleatoriamente dentro del array.
+        System.out.println(aleatorioArray(m)+aleatorioArray(m));
         
     }
     
