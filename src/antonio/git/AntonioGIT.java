@@ -23,16 +23,24 @@ public class AntonioGIT {
         //Imprimo la suma de todos los valores del array.
         System.out.println(sumaArray(m));
         
+        //imprimo un valor aleatorio dentro del array.
+        System.out.println(aleatorioArray(m));
+        
     }
     
     public static void imprimirArray(int[] m){
         for (int i=0;i<m.length;i++) System.out.println(m[i]);
     }
+    
     public static int sumaArray(int[] m){
         int total=0;
         for (int i=0;i<m.length;i++){
             total+=m[i];
         }
         return total;
+    }
+    
+    public static int aleatorioArray(int[] m){
+        return m[(int)(Math.random()*m.length)];  
     }
 }
