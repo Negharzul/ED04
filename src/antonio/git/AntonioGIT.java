@@ -16,7 +16,8 @@ public class AntonioGIT {
     public static void main(String[] args) {
         
         //Declaro un array de integers y lo muestro por consola con un método.
-        int[] m=new int[]{-2,0,20,15,7,-3};
+        //cambie valores del array de manera que RAMA1 tendra codigo diferente en la misma linea.
+        int[] m=new int[]{-2,0,10,12,7,-3};
         
         ImprimirArray(m);
         
