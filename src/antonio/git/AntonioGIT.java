@@ -14,9 +14,9 @@ public class AntonioGIT {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        //modifico los valores del array para que exista codigo diferente en la misma linea y así provocar un conflicto.
         //Declaro un array de integers y lo muestro por consola con un método.
-        int[] m=new int[]{-2,0,20,15,7,-3};
+        int[] m=new int[]{-2,0,-20,15,7,-3};
         
         imprimirArray(m);
         
