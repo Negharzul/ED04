@@ -18,11 +18,21 @@ public class AntonioGIT {
         //Declaro un array de integers y lo muestro por consola con un método.
         int[] m=new int[]{-2,0,20,15,7,-3};
         
-        ImprimirArray(m);
+        imprimirArray(m);
+        
+        //Imprimo la suma de todos los valores del array.
+        System.out.println(sumaArray(m));
         
     }
     
-    public static void ImprimirArray(int[] m){
+    public static void imprimirArray(int[] m){
         for (int i=0;i<m.length;i++) System.out.println(m[i]);
+    }
+    public static int sumaArray(int[] m){
+        int total=0;
+        for (int i=0;i<m.length;i++){
+            total+=m[i];
+        }
+        return total;
     }
 }
